@@ -1,0 +1,139 @@
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2.dll
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2.pdb
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\resources.pri
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\AppxManifest.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR.build.appxrecipe
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\AppManifest.xaml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2_Debug_AnyCPU.xap
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\App.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\MainPage.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page1.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.g.resources
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.Resources.AppResources.resources
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\AZKAR.csproj.GenerateResource.Cache
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.dll
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.pdb
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml.intermediate
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles.intermediate
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles.intermediate
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles.intermediate
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt.intermediate
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\ProjectArchitectures.txt
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\MDILProjectFiles.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\XapCacheFile.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page3.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page2.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2.dll
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2.pdb
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\resources.pri
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\AppxManifest.xml
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR.build.appxrecipe
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\App.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\MainPage.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\Page1.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\Page2.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\Page3.g.cs
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.g.resources
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.Resources.AppResources.resources
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\AZKAR.csproj.GenerateResource.Cache
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.dll
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.pdb
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml.intermediate
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles.intermediate
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles.intermediate
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles.intermediate
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt.intermediate
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\ProjectArchitectures.txt
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\AppManifest.xaml
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\Bin\Debug\PhoneApp2_Debug_AnyCPU.xap
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\MDILProjectFiles.xml
+C:\Users\mhmdlogan\Desktop\PhoneApp2\PhoneApp2\obj\Debug\XapCacheFile.xml
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page4.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\AZKAR.csprojResolveAssemblyReference.cache
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page5.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page6.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page7.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page8.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page9.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page10.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page11.g.cs
+C:\Users\mhmdlogan\documents\visual studio 2015\Projects\PhoneApp2\PhoneApp2\obj\Debug\Page12.g.cs
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\ApplicationIcon.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\resources.pri
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AppxManifest.xml
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR.build.appxrecipe
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Properties\WMAppManifest.xml
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AppManifest.xaml
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\AZKAR.csprojResolveAssemblyReference.cache
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\App.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\MainPage.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page1.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page10.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page11.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page12.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page2.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page3.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page4.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page5.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page6.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page7.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page8.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\Page9.g.cs
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.Resources.AppResources.resources
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\AZKAR.csproj.GenerateResource.Cache
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\priconfig.xml.intermediate
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\layout.resfiles.intermediate
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\resources.resfiles.intermediate
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\pri.resfiles.intermediate
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\qualifiers.txt.intermediate
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\ProjectArchitectures.txt
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\MDILProjectFiles.xml
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\XapCacheFile.xml
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR-أذكار.dll
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR-أذكار.pdb
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\ar\AZKAR-أذكار.resources.dll
+E:\logan\PhoneApp2\PhoneApp2\Bin\Debug\AZKAR-أذكار.xap
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\AZKAR-أذكار.g.resources
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\PhoneApp2.Resources.AppResources.ar.resources
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\ar\AZKAR-أذكار.resources.dll
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\AZKAR-أذكار.dll
+E:\logan\PhoneApp2\PhoneApp2\obj\Debug\AZKAR-أذكار.pdb

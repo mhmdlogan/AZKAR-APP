@@ -1,0 +1,247 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp2.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <ScrollViewer >
+        <StackPanel  HorizontalAlignment="Left" Height="2500" VerticalAlignment="Top" Width="480" Background="White">
+            <Border BorderThickness="1" Height="201" Width="247" VerticalAlignment="Top" Margin="115,0,0,0" HorizontalAlignment="Left" Tap="Border_Tap">
+                <Border.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/morn2.png"/>
+                </Border.Background>
+            </Border>
+            
+            <Button x:Name="button1" Content="أذكار الاستيقاظ" HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF2C8ACB" Click="button1_Click_1" Tap="button1_Tap"/>
+            <Button x:Name="button" Content="يقال 1 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+            <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border1" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="182" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlock" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                		<Run Text="الحمـد لله الذي أحـيانا بعـد ما أماتـنا وإليه النـشور"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="الحمد لله الذي رد علي روحي وعافاني في جسدي وأذن لي بذكره"/>
+                		<LineBreak/>
+                		<Run/>
+                		<LineBreak/>
+                		<Run Text="لا إله إلا الله وحـده لا شـريك له، له الملـك وله الحمـد، وهو على كل شيء قدير، سـبحان الله، والحمـد لله ، ولا إله إلا الله والله أكبر، ولا حول ولا قوة إلا بالله العلي العظيم. رب اغفر لي"/>
+                        <LineBreak/>            
+                        <LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+            <Button x:Name="button1_Copy" Content="أذكار الصباح" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="480" Background="#FFDA5F25" Click="button1_Copy_Click"/>
+            <Button x:Name="button_Copy" Content="يقال 1 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+
+            <Border x:Name="border2" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="398" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <TextBlock x:Name="textBlocka" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+        			<Run Text="اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ. [آية الكرسى - البقرة 255]"/>
+            		<LineBreak/>
+                    <Run/>
+            		<Run Foreground="#FFD66220" Text=" من قالها حين يصبح أجير من الجن حتى يمسى ومن قالها حين يمسى أجير من الجن حتى يصبح"/>
+            		<LineBreak/>
+                    <LineBreak/>
+                    
+                    <Run Foreground="Black" Text="أَصْـبَحْنا وَأَصْـبَحَ المُـلْكُ لله وَالحَمدُ لله ، لا إلهَ إلاّ اللّهُ وَحدَهُ لا شَريكَ لهُ، لهُ المُـلكُ ولهُ الحَمْـد، وهُوَ على كلّ شَيءٍ قدير ، رَبِّ أسْـأَلُـكَ خَـيرَ ما في هـذا اليوم وَخَـيرَ ما بَعْـدَه ، وَأَعـوذُ بِكَ مِنْ شَـرِّ ما في هـذا اليوم وَشَرِّ ما بَعْـدَه، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر ، رَبِّ أَعـوذُبِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر"/>
+            		<LineBreak/>
+            		<Run/>
+            		
+            		<Run Foreground="Black" Text="اللّهـمَّ أَنْتَ رَبِّـي لا إلهَ إلاّ أَنْتَ ، خَلَقْتَنـي وَأَنا عَبْـدُك ، وَأَنا عَلـى عَهْـدِكَ وَوَعْـدِكَ ما اسْتَـطَعْـت ، أَعـوذُبِكَ مِنْ شَـرِّ ما صَنَـعْت ، أَبـوءُ لَـكَ بِنِعْـمَتِـكَ عَلَـيَّ وَأَبـوءُ بِذَنْـبي فَاغْفـِرْ لي فَإِنَّـهُ لا يَغْـفِرُ الذُّنـوبَ إِلاّ أَنْتَ "/>
+            		<LineBreak/>
+                    <Run/>
+            		<Run Foreground="#FFD66220" Text="من قالها موقنا بها حين يمسى ومات من ليلته دخل الجنة وكذلك حين يصبح"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Foreground="Black" Text="اللّهُـمَّ ما أَصْبَـَحَ بي مِـنْ نِعْـمَةٍ أَو بِأَحَـدٍ مِـنْ خَلْـقِك ، فَمِـنْكَ وَحْـدَكَ لا شريكَ لَـك ، فَلَـكَ الْحَمْـدُ وَلَـكَ الشُّكْـر"/>
+            		<LineBreak/>
+                    <Run/>
+            		<Run Foreground="#FFD66220" Text="من قالها حين يصبح أدى شكر يومه"/>
+            		<LineBreak/>
+                    <LineBreak/>
+            		<Run/>
+            		<Run Foreground="Black" Text="اللّهُـمَّ بِكَ أَصْـبَحْنا وَبِكَ أَمْسَـينا ، وَبِكَ نَحْـيا وَبِكَ نَمُـوتُ وَإِلَـيْكَ النُّـشُور"/>
+            		<LineBreak/>
+                    <LineBreak/>
+            		<Run/>
+            		<Run Foreground="Black" Text="أَصْبَـحْـنا عَلَى فِطْرَةِ الإسْلاَمِ، وَعَلَى كَلِمَةِ الإِخْلاَصِ، وَعَلَى دِينِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِينَا إبْرَاهِيمَ حَنِيفاً مُسْلِماً وَمَا كَانَ مِنَ المُشْرِكِينَ"/>
+            		<LineBreak/>
+                    <LineBreak/>
+            		<Run/>
+            		<Run Foreground="Black" Text="اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في الدُّنْـيا وَالآخِـرَة ، اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في ديني وَدُنْـيايَ وَأهْـلي وَمالـي ، اللّهُـمَّ اسْتُـرْ عـوْراتي وَآمِـنْ رَوْعاتـي ، اللّهُـمَّ احْفَظْـني مِن بَـينِ يَدَيَّ وَمِن خَلْفـي وَعَن يَمـيني وَعَن شِمـالي ، وَمِن فَوْقـي ، وَأَعـوذُ بِعَظَمَـتِكَ أَن أُغْـتالَ مِن تَحْتـي"/>
+            		<LineBreak/>
+                    <LineBreak/>
+            		<Run/>
+                    
+            		<Run/>
+                    <Run Text="الحمـد لله الذي أحـيانا بعـد ما أماتـنا وإليه النـشور"/>
+        			<LineBreak/>
+        			<Run/>
+        			<LineBreak/>
+        			<Run Text="الحمد لله الذي رد علي روحي وعافاني في جسدي وأذن لي بذكره"/>
+        			<LineBreak/>
+        			<Run/>
+        			<LineBreak/>
+        			<Run Text="لا إله إلا الله وحـده لا شـريك له، له الملـك وله الحمـد، وهو على كل شيء قدير، سـبحان الله، والحمـد لله ، ولا إله إلا الله والله أكبر، ولا حول ولا قوة إلا بالله العلي العظيم. رب اغفر لي"/>
+                		<LineBreak/>
+                        <LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="button_Copy1" Content="يقال 3 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="423" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <TextBlock x:Name="textBlockb" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                    	<Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                    	<LineBreak/>
+                    	<Run Text="قُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                    	<LineBreak/>
+                    	<Run Text="قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّالنَّفَّاثَاتِ فِي الْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                    	<LineBreak/>
+                    	<Run Text="قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَهِ النَّاسِ، مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَ النَّاسِ "/>
+                    	<LineBreak/>
+                    	<Run/>
+                    	<LineBreak/>
+                    	<Run Text="رَضيـتُ بِاللهِ رَبَّـاً وَبِالإسْلامِ ديـناً وَبِمُحَـمَّدٍ صلى الله عليه وسلم نَبِيّـاً"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="من قالها حين يصبح وحين يمسى كان حقا على الله أن يرضيه يوم القيامة"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="بِسـمِ اللهِ الذي لا يَضُـرُّ مَعَ اسمِـهِ شَيءٌ في الأرْضِ وَلا في السّمـاءِ وَهـوَ السّمـيعُ العَلـيم"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="سُبْحـانَ اللهِ وَبِحَمْـدِهِ عَدَدَ خَلْـقِه ، وَرِضـا نَفْسِـه ، وَزِنَـةَ عَـرْشِـه ، وَمِـدادَ كَلِمـاتِـه"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="اللّهُـمَّ عافِـني في بَدَنـي ، اللّهُـمَّ عافِـني في سَمْـعي ، اللّهُـمَّ عافِـني في بَصَـري ، لا إلهَ إلاّ أَنْـتَ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="اللّهُـمَّ إِنّـي أَعـوذُبِكَ مِنَ الْكُـفر ، وَالفَـقْر ، وَأَعـوذُبِكَ مِنْ عَذابِ القَـبْر ، لا إلهَ إلاّ أَنْـتَ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="يَا حَيُّ يَا قيُّومُ بِرَحْمَتِكَ أسْتَغِيثُ أصْلِحْ لِي شَأنِي كُلَّهُ وَلاَ تَكِلُنِي إلَى نَفْسِي طَـرْفَةَ عَيْنٍ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="أَعـوذُ بِكَلِمـاتِ اللّهِ التّـامّـاتِ مِنْ شَـرِّ ما خَلَـق"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="اللَّهُمَّ إِنَّا نَعُوذُ بِكَ مِنْ أَنْ نُشْرِكَ بِكَ شَيْئًا نَعْلَمُهُ ، وَنَسْتَغْفِرُكَ لِمَا لَا نَعْلَمُهُ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنْ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنْ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ، وَقَهْرِ الرِّجَالِ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="أسْتَغْفِرُ اللهَ العَظِيمَ الَّذِي لاَ إلَهَ إلاَّ هُوَ، الحَيُّ القَيُّومُ، وَأتُوبُ إلَيهِ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="يَا رَبِّ , لَكَ الْحَمْدُ كَمَا يَنْبَغِي لِجَلَالِ وَجْهِكَ , وَلِعَظِيمِ سُلْطَانِكَ"/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="button_Copy2" Content="يقال 4 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border1_Copy2" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="158" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <TextBlock x:Name="textBlock3" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                    	<Run Text="اللّهُـمَّ إِنِّـي أَصْبَـحْتُ أُشْـهِدُك ، وَأُشْـهِدُ حَمَلَـةَ عَـرْشِـك ، وَمَلائِكَتِك ، وَجَمـيعَ خَلْـقِك ، أَنَّـكَ أَنْـتَ اللهُ لا إلهَ إلاّ أَنْـتَ وَحْـدَكَ لا شَريكَ لَـك ، وَأَنَّ ُ مُحَمّـداً عَبْـدُكَ وَرَسـولُـك"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="من قالها أعتقه الله من النار"/>
+                </TextBlock>
+            </Border>
+            <Button x:Name="button_Copy3" Content="يقال 7 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border1_Copy3" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="113" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <TextBlock x:Name="textBlock4" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                    	<Run Text="حَسْبِـيَ اللّهُ لا إلهَ إلاّ هُوَ عَلَـيهِ تَوَكَّـلتُ وَهُوَ رَبُّ العَرْشِ العَظـيم"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="من قالها كفاه الله ما أهمه من أمر الدنيا والأخرة"/>
+                </TextBlock>
+            </Border>
+            <Button x:Name="button_Copy4" Content="يقال 10مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="102" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border1_Copy4" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="193" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <TextBlock x:Name="textBlock5" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                    	<Run Text="اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ على نَبِيِّنَا مُحمَّد"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="من صلى على حين يصبح وحين يمسى ادركته شفاعتى يوم القيامة"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220"/>
+                    	<LineBreak/>
+                    	<Run Foreground="Black" Text="لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلُّ شَيْءِ قَدِيرِ"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FFD66220" Text="كانت له عدل عشر رقاب، وكتبت له مئة حسنة، ومحيت عنه مئة سيئة، وكانت له حرزا من الشيطان"/>
+                		<LineBreak/>
+                        <LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+
+                </ScrollViewer>
+            </Border>
+
+
+            <Grid x:Name="gr1" Height="70" VerticalAlignment="Bottom" Width="83" HorizontalAlignment="Center" Margin="202,0,195,-62" Tap="gr1_Tap">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/home.png"/>
+                </Grid.Background>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+</phone:PhoneApplicationPage>

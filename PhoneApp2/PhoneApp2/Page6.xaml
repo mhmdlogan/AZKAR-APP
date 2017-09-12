@@ -1,0 +1,165 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp2.Page6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <ScrollViewer >
+        <StackPanel  HorizontalAlignment="Left" Height="1375" VerticalAlignment="Top" Width="480" Background="White">
+            <Border BorderThickness="1" Height="195" Width="247" VerticalAlignment="Top" Margin="115,0,0,0" HorizontalAlignment="Left" Tap="Border_Tap">
+                <Border.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/after.png"/>
+                </Border.Background>
+            </Border>
+
+            <Button x:Name="button1" Content="أذكار بعد الصلاة " HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF507A59" Click="button1_Click_1" Tap="button1_Tap"/>
+            <Button x:Name="buttonb" Content="يقال 1 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderg" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="241" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockj" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <Run Text="أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله"/>
+                        <LineBreak/>
+                        <Run Text="اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="لا إلهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="لا إلهَ إلاّ اللّه, وحدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمد، وهوَ على كلّ شيءٍ قدير، لا حَـوْلَ وَلا قـوَّةَ إِلاّ بِاللهِ، لا إلهَ إلاّ اللّـه، وَلا نَعْـبُـدُ إِلاّ إيّـاه, لَهُ النِّعْـمَةُ وَلَهُ الفَضْل وَلَهُ الثَّـناءُ الحَـسَن، لا إلهَ إلاّ اللّهُ مخْلِصـينَ لَـهُ الدِّينَ وَلَوْ كَـرِهَ الكـافِرون"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="لا إلهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="أَعُوذُ بِاللهِ مِنْ الشَّيْطَانِ الرَّجِيمِ"/>
+                		<LineBreak/>
+                        <Run Text="اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللّهُـمَّ إِنِّـي أَسْأَلُـكَ عِلْمـاً نافِعـاً وَرِزْقـاً طَيِّـباً ، وَعَمَـلاً مُتَقَـبَّلاً"/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="بَعْد السّلامِ من صَلاةِ الفَجْر"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"/>
+                        
+                		
+                        
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                        
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="buttonA" Content="يقال 3 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderA" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="241" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockA" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                		<LineBreak/>
+                        <Run Text="قُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                        <LineBreak/>
+                        <Run Text="قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم"/>
+                        <LineBreak/>
+                        <Run Text="قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَهِ النَّاسِ، مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَ النَّاسِ"/>
+                		
+                        
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="buttonc" Content="يقال 7 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderC" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="76" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockC" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <!--<Run Foreground="#FFD66220" Text="الذكر قبل الوضوء"/>-->
+                        
+                        <Run Text="اللَّهُمَّ أَجِرْنِي مِنْ النَّار"/>
+                		<LineBreak/>
+                        <Run Foreground="#FFD66220" Text="بعد صلاة الصبح والمغرب"/>
+                        
+                        
+                                                
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="buttonF" Content="يقال 33 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderd" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="56" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockD" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <!--<Run Foreground="#FFD66220" Text="الذكر قبل الوضوء"/>-->
+                        
+                        <Run Text="سُـبْحانَ اللهِ، والحَمْـدُ لله ، واللهُ أكْـبَر"/>
+                        
+                                                
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+
+
+
+
+
+            <Grid x:Name="gr1" Height="80" VerticalAlignment="Bottom" Width="83" HorizontalAlignment="Center" Margin="202,0,195,-62" Tap="gr1_Tap">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/home.png"/>
+                </Grid.Background>
+            </Grid>
+
+
+        </StackPanel>
+    </ScrollViewer>
+    
+</phone:PhoneApplicationPage>

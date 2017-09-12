@@ -1,0 +1,63 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp2.Page9"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer >
+        <StackPanel  HorizontalAlignment="Left" Height="835" VerticalAlignment="Top" Width="480" Background="White">
+            <Border BorderThickness="1" Height="195" Width="247" VerticalAlignment="Top" Margin="115,0,0,0" HorizontalAlignment="Left">
+                <Border.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/door.png"/>
+                </Border.Background>
+            </Border>
+
+            <Button x:Name="button1" Content="أذكار الخلاء " HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF4F403C"/>
+            <Button x:Name="buttonb" Content="يقال 1 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderg" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="366" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockj" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <Run Foreground="#FFD66220" Text="الذكر عند الخلاء"/>                        
+                        <LineBreak/>
+                        <Run Text="(بِسْمِ الله) اللّهُـمَّ إِنِّـي أَعـوذُ بِـكَ مِـنَ الْخُـبْثِ وَالْخَبائِث"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الذكر بعد الخروج من الخلاء"/> 
+                         <LineBreak/>
+                        <Run Text="غُفْـرانَك"/>
+                        
+                        <LineBreak/>
+                		<LineBreak/>
+                		<!--<Run Foreground="#FF69C31D" Text="******************                        "/>-->
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+
+            <Grid x:Name="gr1" Height="80" VerticalAlignment="Bottom" Width="83" HorizontalAlignment="Center" Margin="202,0,195,-62" Tap="gr1_Tap">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/home.png"/>
+                </Grid.Background>
+            </Grid>
+
+
+        </StackPanel>
+    </ScrollViewer>
+
+</phone:PhoneApplicationPage>

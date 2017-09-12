@@ -1,0 +1,332 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp2.Page10"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer >
+        <StackPanel  HorizontalAlignment="Left" Height="2545" VerticalAlignment="Top" Width="480" Background="White">
+            <Border BorderThickness="1" Height="195" Width="247" VerticalAlignment="Top" Margin="115,0,0,0" HorizontalAlignment="Left" Visibility="Collapsed">
+                <Border.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/door.png"/>
+                </Border.Background>
+            </Border>
+
+            <Button x:Name="button1" Content="أذكار أخرى " HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF383838"/>
+            <Button x:Name="buttonb" Content="يقال 1 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="borderg" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="641" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockj" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <Run Foreground="#FFD66220" Text="دعاء لبس الثوب"/>                        
+                         <LineBreak/>
+                        <Run Text="الحمدُ للهِ الّذي كَساني هذا (الثّوب) وَرَزَقَنيه مِنْ غَـيـْرِ حَولٍ مِنّي وَلا قـوّة"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء لبس الثوب الجديد"/>
+                        <LineBreak/>
+                        <Run Text="اللهم لك الحمد أنت كسوتنيه، أسألك من خيره"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء الكرب"/>
+                        <LineBreak/>
+                        <Run Text="لا إله إلا الله العظيم الحليم، لا إله إلا الله رب العرش العظيم، لا إله إلا الله رب السماوات، ورب الأرض ورب العرش الكريم "/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللهم رحمتك أرجو فلا تكلني إلى نفسي طرفة عين وأصلح لي شأني كله ، لا إله إلا أنت"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="لا إله إلا أنت سبحانك إني كنت من الظالمين"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="الله الله رب لا أشرك به شيئا "/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء الهم والحزن"/>
+                        <LineBreak/>
+                        <Run Text="اللهم إني عبدك ابن عبدك ابن أمتك ناصيتي بيدك ماض في حكمك ، عدل في قضاؤك أسألك بكل اسم هو لك سميت به نفسك أو أنزلته في كتابك ، أو علمته أحداً من خلقك أو استأثرت به في علم الغيب عندك أن تجعل القرآن ربيع قلبي ، ونور صدري وجلاء حزني وذهاب همي"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللهم إني أعوذ بك من الهم والحزن والعجز والكسل والبخل والجبن ، وضلع الدين وغلبة الرجال"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء قضاء الدين"/>
+                        <LineBreak/>
+                        <Run Text="اللهم اكفنى بحلالك عن حرامك وأغننى بفضلك عمن سواك"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء الرياح"/>
+                        <LineBreak/>
+                        <Run Text="اللهم إنى أسألك خيرها، وخير ما فيها، وخير ما أرسلت به، وأعوذ بك من شرها، وشر ما فيها وشر ما أرسلت به"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء الرعـد"/>
+                        <LineBreak/>
+                        <Run Text="سبحان الله الذي يسبح الرعد بحمده والملائكة من خيفته"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run  Foreground="#FFD66220" Text="دعاء زيارة القبور"/>
+                        <LineBreak/>
+                        <Run Text="السلام عليكم أهل الديار من المؤمنين والمسلمين، وإنا إن شاء الله بكم لاحقون ويرحم الله المستقدمين منا والمستأخرين، أسأل الله لنا ولكم العافية"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء نزول االمطر"/>
+                        <LineBreak/>
+                        <Run Text="اللهم صيباَ نافعاَ"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء ركوب الدابة أو ما يقوم مقامها ( السيارة أو القطار أو الطائرة أو السفينة)"/>
+                        <LineBreak/>
+                        <Run Text="بسم الله ، الحمد لله ، سبحان الذي سخر لنا هذا وماكنا له مقرنين وإنا إلى ربنا لمنقلبون، الحمد لله ، الحمد لله ، الحمد لله ، الله اكبر ، الله أكبر ، الله أكبر ، سبحانك اللهم إني ظلمت نفسي فاغفر لي ، فإنه لايغفر الذنوب إلا أنت"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء السفر"/>
+                        <LineBreak/>
+                        <Run Text="اللهم إنا نسألك في سفرنا هذا البر والتقوى، ومن العمل ماترضى ، اللهم هون علينا سفرنا هـذا واطوِ عنا بعده، اللهم أنت الصاحب في السفر، والخليفة في الأهل، اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر وسوء المنقلب في المال والأهل"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="وإذا رجع قالهن وزاد فيهن ـ آيبون ،تآئبون، عابدون ، لربنا حامدون"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء المسافر للمقيم"/>
+                        <LineBreak/>
+                        <Run Text="استودعكم الله الذي لا تضيع ودائعه"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء المقيم للمسافر"/>
+                        <LineBreak/>
+                        <Run Text="أستودع ُ الله دينك وأمانتك ، وخواتيم عملك زودك الله التقوى، وغفر ذنبك، ويسر لك الخير حيث ما كنت"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـــاء النـــزول في مكــان"/>
+                        <LineBreak/>
+                        <Run Text="أعوذ بكلمات الله التامات من شر ما خلق"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء بين السجدتين"/>
+                        <LineBreak/>
+                        <Run Text="رب اغفر لي رب اغفر لي اللهم اغفر لي ، وارحمني واهدني واجبرني وعافني وارزقني وارفعني"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـاء من استصعب عليه أمر"/>
+                        <LineBreak/>
+                        <Run Text="اللهم لاسهل إلا ماجعلته سهلا وأنت تجعل الحزن إذا شئت سهلا"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـاء الخوف من الشــرك"/>
+                        <LineBreak/>
+                        <Run Text="اللهم إني أ عوذ بك أن أشرك بك وأنا أعلم ، وأستغفرك لما لا أعلم "/>
+                        <LineBreak/>
+                    	<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+            <Button x:Name="button2" Content="أذكار أخرى " HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF383838"/>
+
+            <Border x:Name="borderh" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="641" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockh" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                       <Run Foreground="#FFD66220" Text="كفارة المجلس"/>
+                        <LineBreak/>
+                        <Run Text="سبحانك اللهم وبحمدك ، أشهد أن لا إله إلا أنت أستغفرك وأتوب إليك"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء من رأى مبتلى"/>
+                        <LineBreak/>
+                        <Run Text="الحمد لله الذي عافاني مما ابتلا به وفضلني على كثير ممن خلق تفضيلاً"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـاء الغـضـب"/>
+                        <LineBreak/>
+                        <Run Text="أعوذ بالله من الشيطان الرجيـم"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء للمتزوج"/>
+                        <LineBreak/>
+                        <Run Text="بارك الله لك ، وبارك عليك ، وجمع بينكما في خير"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء المتزوج لنفسه"/>
+                        <LineBreak/>
+                        <Run Text="اللهم إني أسألك خيرها وخير ماجبلتها عليه وأعوذ بك من شرها وشر ماجبلتها عليه ، وإذا اشترى بعيراً فليأخذ بذروة سنامه وليقل مثل ذلك"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء قبل الجماع"/>
+                        <LineBreak/>
+                        <Run Text="بسم الله ـ اللهم جنبنا الشيطان، وجنب الشيطان مارزقتنا"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء العطاس"/>
+                        <LineBreak/>
+                        <Run Text="إذا عطـس أحـدكم فليقل : الحمـد لله ، وليقل له أخـوه ، أو صاحبه : يرحمـك الله فـإذا قال له : يرحمك الله ، فليقل : يهديكم الله ويصلح بالكم"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء عند افطار الصائم"/>
+                        <LineBreak/>
+                        <Run Text="ذهب الضمـأ ، وأبتلت العروق ، وثبت الأجر إن شاء الله"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء إذا أفطر عند أهل بيت"/>
+                        <LineBreak/>
+                        <Run Text="أفطر عندكم الصائمون ، وأكل طعامكم الأبرار ، وصلت عليكم الملائكة"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء رؤية الهلال"/>
+                        <LineBreak/>
+                        <Run Text="الله أكبر ، اللهم أهله علينا بالأمن ، والإيمان والسلامة ، والإسلام ، والتوفيق لما تحب وترضى ربنا وربك الله"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء من أصيب بمصيبة"/>
+                        <LineBreak/>
+                        <Run Text="إنا لله وإنا إليه راجعون اللهم أجرني في مصيبتي واخلف لي خيرا منها"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعاء للمريض في عيادته"/>
+                        <LineBreak/>
+                        <Run Text="لابأس طهور إن شاء الله مامن عبد مسلم يعود مريضاً لم يحضر أجله فيقول سبع مرات : أسأل الله العظيم رب العرش العظيم أن يشفيك إلا عوفي"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="ما يعوذ به الأولاد"/>
+                        <LineBreak/>
+                        <Run Text="أعيذكما بكلمات الله التامة من كل شيطان وهامة ، ومن كل عين لامة"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء لقاء العدو وذي السلطان"/>
+                        <LineBreak/>
+                        <Run Text="حسـبنا الله ونعـم الـوكـيل"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللهم إنا نجعلك في نحورهم ونعوذ بك من شرورهم"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="اللهم أنت عضدي ، وأنت نصيري ، بك أجول وبك أصول وبك أقاتل"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـاء صـلاة الاستخـارة"/>
+                        <LineBreak/>
+                        <Run Text="قال جابر بن عبدالله رضي الله عنهما : كان رسول الله صلى الله عليه وسلم يعلمنا الاستخارة في الاموركلها كما يعلمنا السورة من القرآن ، يفول : ( إذا هم أحدكم بالأمر فليركع ركعتين من غير الفريضة ثم ليقل : اللهم إني أستخيرك بعلمك ، وأستقدرك بقدرتك وأسألك من فضلك العظيم فإنك تقدر ولاأقدروتعلم ولاأعلم وأنت علام الغيوب ، اللهم إن كنت تعلم أن هذا الأمر ـ ويسمي حاجته ـ خيرا لي في ديني ومعاشي وعاقبة أمري ـ أو قال عاجله وآجله ـ فأقدره لي ويسره لي ثم بارك لي فيه ، وإن كنت تعلم أن هذا الأمر شر لي في ديني ومعاشي وعاقبة أمري ـ أو قال عاجله وآجله ـ فاصرفه عني واصرفني عنه واقدر لي الخير حيث كان ثم ارضني به)"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعـاء سجود التلاوة"/>
+                        <LineBreak/>
+                        <Run Text="سجد وجهي للذي خلقه ،وشق سمعه وبصره بحوله وقوته ( فتبارك الله احسن الخالقين )"/>
+                        
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="button3" Content="أذكار أخرى " HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="480" Background="#FF383838"/>
+
+            <Border x:Name="borderk" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="641" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlockl" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                       <Run Foreground="#FFD66220" Text="دعـــــاء الاستفــتــــاح"/>
+                        <LineBreak/>
+                        <Run Text="اللهم باعد بيني وبين خطاياي كما باعدت بين المشرق والغرب ، اللهم نقني من خطاياي كما ينقى الثوب الأبيض من الدنس، اللهم اغسلني من خطاياي بالثلج والماء والبرد"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="سبحانك اللهم وبحمدك وتبارك اسمك وتعالى جدُّك ولاإله غيرك"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="الله اكبر كبيرا ، الله اكبر كبيرا ، الله اكبر كبيرا ، والحمد لله كثيرا ، والحمد لله كثيرا ، والحمد لله كثيرا ، وسبحان الله بكرة وأصيلا(ثلاثـــا) ـ اعوذ بالله من الشيطان من نفحه ونفثه وهمزه "/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="دعاء دخول السوق"/>
+                        <LineBreak/>
+                        <Run Text=" لا إله إلا الله وحده لا شريك له، له الملك وله الحمد يحيي ويميت وهو حي لا يموت بيده الخير وهو على كل شيء قدير (كتب الله له ألف ألف حسنة ومحا عنه ألف ألف سيئة ورفع له ألف الف درجة وفي رواية: وبنى له بيتا في الجنة).
+بسم الله، اللهم إني أسألك خير هذه السوق، وخير ما فيها، وأعوذ بك من شرها وشر ما فيها، اللهم إني أعوذ بك أن أصيب بها يميناً فاجرةً، أو صفقة خاسرة"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="عنــــد فعــــل الذنب أو ارتكاب المعصية"/>
+                        <LineBreak/>
+                        <Run Text="كما أخبرنا رسول الله صلى الله عليه وسلم ((ما من عبد يذنب ذنباً فيتوضأ فيحسن الطهور،ثم يقوم فيصلي ركعتين ، ثم يستغفر الله لذلك الذنب إلاَّ غُفر له ))"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعـــاء عنــــد سماع أصوات الحيوانات"/>
+                        <LineBreak/>
+                        <Run Text="الدعاء عند صياح الديك : (( اللهم إني أسألك من فضلـــك )). ((إذا سمعتم صياح الديك[من الليل]،فاسألوا الله من فَضْلِهِ فإنها رأت ملكاً و إذا سمعتم نهيق الحمار،فتعوَّذوا بالله من الشيطان فإنها رأت شَيْطَاناً))"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="الدعاء عند صياح الديك و نهيق الحمار و نباح الكلاب: (( أعوذ بالله من الشيطان الرجيم ))"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="((إذا سمعتم نُباحَ الكلاب و نهيق الحمير بالليل فتعوذوا بالله فإنهن يَرَيْنَ ما لا ترون))"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="سيد الاستغفار"/>
+                        <LineBreak/>
+                        <Run Text="اللهم أنت ربي لا إله إلا أنت ، خلقتني وأنا عبدك وأنا على عهدك ووعدك ما استطعت أعوذ بك من شر ما صنعت، أبوئ لك بنعمتك على وأبوئ بذنبي ، فاغفر لي فانه لا يغفر الذنوب إلا أنت"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="عن شداد بن أوس رضي الله عنه عن النبي صلى الله عليه وسلم قال ( سيد الاستغفار أن يقول العبد اللهم أنت ربي لا إله إلا أنت ، خلقتني وأنا عبدك وأنا على عهدك ووعدك ما استطعت أعوذ بك من شر ما صنعت، أبوئ لك بنعمتك على وأبوئ بذنبي ، فاغفر لي فانه لا يغفر الذنوب إلا أنت ) من قالها في النهار موقناً بها فمات من يومه قبل أن يمسي فهو من أهل الجنة ومن قالها من الليل وهو موقناً بها فمات قبل أن يصبح فهو من أهل الجنة"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="الدعـــاء إذا أحسست بوجع في جسدك"/>
+                        <LineBreak/>
+                        <Run Text="ضع يدك على الذي تألَّم من جسدك وقل: بسم الله ،ثلاثاً ،وقل سبع مرات: أعوذُ بالله وقُدْرَتِهِ من شَرِّ مَا أَجِدُ واُحَاذِرُ"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Foreground="#FFD66220" Text="مايقول ويفعل من أذنب ذنباً"/>
+                        <LineBreak/>
+                        <Run Text="مامن عبد يذنب ذنباً فيحسـن الطهور ثم يقوم فيصلي ركعتين ، ثم يستغــفــر الله إلا غفر له"/>
+                        
+                        <LineBreak/>
+                		<LineBreak/>
+                		<Run Foreground="#FF69C31D" Text="******************                        "/>
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+            <Button x:Name="buttona" Content="يقال 100 مره" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="104" Foreground="#FFD66220" FontFamily="Frutiger LT Arabic 45 Light" IsHitTestVisible="False" IsTabStop="False" Margin="140,0">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/btn.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="bordera" BorderBrush="#D1252525" BorderThickness="1" HorizontalAlignment="Center" Height="107" VerticalAlignment="Top" Width="430" Margin="25,0">
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Foreground="#FFF90101">
+                    <TextBlock x:Name="textBlocka" TextWrapping="Wrap" Margin="9" Foreground="#FF020202" TextAlignment="Right">
+                        <Run Foreground="#FFD66220" Text="ما يقال في المجلس"/>
+                        <LineBreak/>
+                        <Run Text="رب اغفر لي وتب عليّ إنك أنت أن التواب الغفور (100 مرة قبل أن يقوم)"/>
+                        
+                		<!--<Run Foreground="#FF69C31D" Text="******************                        "/>-->
+
+
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+
+
+
+            <Grid x:Name="gr1" Height="80" VerticalAlignment="Bottom" Width="83" HorizontalAlignment="Center" Margin="202,0,195,-62" Tap="gr1_Tap">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Assets/home.png"/>
+                </Grid.Background>
+            </Grid>
+
+
+        </StackPanel>
+    </ScrollViewer>
+
+</phone:PhoneApplicationPage>

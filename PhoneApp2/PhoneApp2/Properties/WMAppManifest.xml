@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
+  <DefaultLanguage xmlns="" code="ar" />
+  <Languages xmlns="">
+    <Language code="ar-EG" />
+    <Language code="ar-BH" />
+    <Language code="ar-IQ" />
+    <Language code="ar-JO" />
+    <Language code="ar-KW" />
+    <Language code="ar-LB" />
+    <Language code="ar-LY" />
+    <Language code="ar-MA" />
+    <Language code="ar-OM" />
+    <Language code="ar-QA" />
+    <Language code="ar-SA" />
+    <Language code="ar-SY" />
+    <Language code="ar-TN" />
+    <Language code="ar-AE" />
+    <Language code="ar-YE" />
+    <Language code="ar" />
+    <Language code="ar-DZ" />
+    <Language code="en" />
+  </Languages>
+  <App xmlns="" ProductID="{834b65eb-f014-4617-b781-8c043155c028}" Title="AZKAR-أذكار" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Mohamed Elhossiny" Description="Sample description" SDOptOut="false" BackUpOptOut="false" Publisher="mhmdlogan" PublisherID="{1b97bce4-8785-43c5-ad0b-ada783601c97}" NotificationService="MPN">
+    <IconPath IsRelative="true" IsResource="false">Assets\loooogo2.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" ActivationPolicy="Resume" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="PhoneApp2Token" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\loooogo2.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\loooogo.png</BackgroundImageURI>
+          <Title>
+          </Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\wide.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
